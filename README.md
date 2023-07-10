@@ -4,3 +4,5 @@ Describe how to attribute to some OSM points and polygons a OCS GE Land Use clas
 The file OSM_to_OCSGE.ods gives the mapping from OSM tags to OCSGE classes. First column gives a key that for all the values of the second column, if the conditions of the third column are met, is mapped to the LU class of the fourth column.
 - *any* in the value columns means that the relationship between the key and the LU class is independant of the value for the key.
 - *all others* means that the key is mapped to the LU class for any of the values that are not in other rows with this key.
+- several keys in the same row means that this relationship is true for all these keys.
+- \* in the key column means that the relationship is true for any key that has these values.
